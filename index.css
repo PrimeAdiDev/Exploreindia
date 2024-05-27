@@ -105,11 +105,8 @@ a:hover{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation-name: changebg;
-  animation-duration: 30s;
-  animation-iteration-count: infinite;
-  animation-fill-mode: forwards;
-}
+  background-image:url("vana2.webp");
+  }
 
 
 #search{
@@ -558,6 +555,16 @@ a:hover{
    justify-content: center;
    opacity: 100%;
 }
+#sec1{
+  height: 100vh;
+  display: flex;
+  background-size:cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image:url("vana2.webp");
+  }
+
 #search{
   padding-top: 9px;
   padding-bottom: 9px;
@@ -742,6 +749,7 @@ a:hover{
   margin: 10px;
   
 }
+
 #rightfooter{
   padding: 60px;
   font-family: "Josefin Sans" ;
