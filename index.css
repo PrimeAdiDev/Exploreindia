@@ -105,8 +105,11 @@ a:hover{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image:url("vana2.webp");
-  }
+  animation-name: changebg;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
 
 
 #search{
@@ -531,6 +534,36 @@ a:hover{
   color:white;
   
 }
+#sec1{
+  height: 100vh;
+  display: flex;
+  background-size:cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation-name: changebg;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+@keyframes changebg {
+  0%{
+   background-image: url('vana2.webp');
+  
+  }
+  33%{
+      background-image: url('mahal.webp');
+  }
+  66%{
+    background-image: url('houseimg.webp');
+  }
+  
+  100%{
+   background-image: url('lakdeep.webp');
+  }
+  
+}
+
  footer {
   display: flex;
   flex-direction: column;
