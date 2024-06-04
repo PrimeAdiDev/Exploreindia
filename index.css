@@ -105,11 +105,8 @@ a:hover{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation-name: changebg;
-  animation-duration: 30s;
-  animation-iteration-count: infinite;
-  animation-fill-mode: forwards;
-}
+  background-image: url('vana2.webp');
+ }
 
 
 #search{
@@ -145,23 +142,6 @@ a:hover{
   color: white;
   font-family: "Josefin Sans" ;
   font-weight: 500;
-}
-@keyframes changebg {
-  0%{
-   background-image: url('vana2.webp');
-  
-  }
-  33%{
-      background-image: url('mahal.webp');
-  }
-  66%{
-    background-image: url('houseimg.webp');
-  }
-  
-  100%{
-   background-image: url('lakdeep.webp');
-  }
-  
 }
 @keyframes move{
  from{
@@ -541,30 +521,9 @@ a:hover{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation-name: changebg;
-  animation-duration: 30s;
-  animation-iteration-count: infinite;
-  animation-fill-mode: forwards;
-}
-@keyframes changebg {
-  0%{
-   background-image: url('vana2.webp');
-  
-  }
-  33%{
-      background-image: url('mahal.webp');
-  }
-  66%{
-    background-image: url('houseimg.webp');
-  }
-  
-  100%{
-   background-image: url('lakdeep.webp');
-  }
-  
-}
+  background-image: url('vana2.webp');}
 
- footer {
+footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
